@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cross Layout</title>
+    <style>
+        #container {
+            display : grid;
+            grid-template-columns: (3,100px);
+            grid-template-rows: repeat(3,100px);
+           /* gap : 10px;*/
+            justify-content: center;
+            align-items: center;
+            height : 100vh;
+        }
+        
+        #Box1 {
+           background-color: #00ffff; 
+           height : 100px;
+           width : 70px;
+           grid-column: 1;
+           grid-row: 1/2;
+           text-align: center;  
+           position : relative;
+           top : 40px;
+           left : 20px;
+        }
+
+        #Box2 {
+            background-color: #00ffff; 
+            height : 100px;
+            width : 70px;
+            grid-column: 3;
+            grid-row: 1;
+            text-align: center;
+            position : relative;
+            top : 40px;
+            right : 20px;
+        }
+
+        #Box3 {
+            background-color: #00ffff; 
+            height : 100px;
+            width : 70px;
+            grid-column: 2;
+            grid-row: 2/3;
+            text-align: center;
+           /* position: relative;
+            bottom : 50px;*/
+        }
+
+        #Box4 {
+            background-color: #00ffff; 
+            height : 100px;
+            width : 70px;
+            grid-column: 1;
+            grid-row: 3;
+            text-align: center;
+            position : relative;
+            bottom : 40px;
+            left : 20px;
+        }
+
+        #Box5 {
+            background-color: #00ffff; 
+            height : 100px;
+            width : 70px;
+            grid-column: 3;
+            grid-row: 3;
+            text-align: center;
+            position : relative;
+            bottom : 40px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="Box1">B</div>
+        <div id="Box2">C</div>
+        <div id="Box3">A</div>
+        <div id="Box4">D</div>
+        <div id="Box5">E</div>
+    </div>
+    
+
+</body>
+</html>
