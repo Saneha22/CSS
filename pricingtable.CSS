@@ -1,0 +1,123 @@
+* {
+    margin : 0;
+    padding : 0;
+    text-decoration : none;
+    list-style : none;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(32, 40, 66, 1);
+    padding-top: 50px;
+     
+    }
+
+.plan-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff;
+     background-color: #f4f2fd;
+    width : 962px;
+    height: 427px;
+    padding-top: 32px;
+    padding-right: 48px;
+    padding-bottom : 32px;
+    padding-left : 48px;
+    gap : 32px;
+    margin-left : auto;
+    margin-right: auto;
+
+}
+
+.free-plan {
+    border:1 px solid #f4f2fd;
+    text-shadow :#000000;
+    width :262px;
+    height : 363px;
+    border-radius: 8px;
+    padding : 32px;
+    gap : 32px;
+}
+
+.Basic-plan {
+    width :262px;
+    height : 363px;
+    border-radius: 8px;
+    padding : 32px;
+    gap : 32px;
+    border : 1 px solid #f4f2fd;
+    background-color:rgba(32, 40, 66, 1) ;
+    color : #f4f2fd;
+}
+
+.Pro-plan {
+    width :263px;
+    height : 361px;
+    border-radius: 8px;
+    padding : 32px;
+    gap : 32px;
+    border:1 px solid #f4f2fd;
+    text-shadow :#000000;
+}
+
+.plan-heading {
+    font-size: 30px;
+    font-family :  "Montserrat", sans-serif;
+    word-spacing : 3px;
+    letter-spacing : 1px;
+}
+
+.plan-para {
+    font-size : 15px;
+}
+
+.plan-price {
+    font-size : 35px;
+    line-height: 80px;
+}
+
+.plan-features {
+    font-size : 20px;
+
+}
+
+.plan-features ::marker{
+        color : #f4f2fd;
+        background-color:rgba(32, 40, 66, 1) ; 
+        font-size: 1.5em;
+        
+}
+
+.plan-item {
+    line-height: 35px;
+     list-style-type: disc;
+     
+
+}
+
+.basic-item {
+    line-height: 35px;
+    list-style-type: disc;
+    
+}
+#Subscribe-Now {
+    color :#f4f2fd;
+    background-color: rgba(32, 40, 66, 1);
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius : 50px;
+    
+}
+
+#Subscribe {
+    background-color: #f4f2fd;
+    color :rgba(32, 40, 66, 1);
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius : 50px;
+    
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IRCTC Clone</title>
+   <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .left-panel {
+      width: 50%;
+      padding: 40px;
+      background-color: white;
+    }
+
+    .top-nav {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .top-nav a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    button.login {
+      background-color: orange;
+    }
+
+    .logo-section img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .logo-section {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .tagline {
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .tagline span {
+      margin-right: 10px;
+    }
+
+    .safety { color: green; }
+    .security { color: orange; }
+    .punctuality { color: steelblue; }
+
+    .buttons {
+      margin: 20px 0;
+      display: flex;
+      gap: 10px;
+    }
+
+    .buttons button {
+      padding: 8px 12px;
+      border: 1px solid #ccc;
+      background-color: white;
+      cursor: pointer;
+    }
+
+    .form-box {
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .form-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+
+    .form-row input, .form-row select {
+      flex: 1;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    .search-btn {
+      width: 100%;
+      padding: 12px;
+      background-color: #00b300;
+      color: white;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .right-panel {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .right-panel img {
+      width: 100%;
+      height: 50%;
+      object-fit: cover;
+    }
+
+   </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Left Panel -->
+    <div class="left-panel">
+      <div class="top-nav">
+        <a href="#">Ask Disha</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Alerts</a>
+        <div class="seconddiv">
+        <button class="login" >Login</button>
+        <button>Register</button>
+        <button>Agent Login</button>
+        </div>
+      </div>
+
+      <div class="logo-section">
+        <img src="https://icon2.cleanpng.com/lnd/20250107/ci/7367773d5909af50cbb50bc3f22164.webp" alt="IRCTC Logo" width="50">
+        <img src="https://5.imimg.com/data5/QO/TJ/MY-38751272/indian-railway-sign-board.jpg" alt="Indian Railways Logo" width="50">
+      </div>
+
+      <h1>Indian Railways</h1>
+      <div class="tagline">
+        <span class="safety">Safety</span>
+        <span class="security">Security</span>
+        <span class="punctuality">Punctuality</span>
+      </div>
+
+      <div class="buttons">
+        <button>BOOK Ticket</button>
+        <button>PNR Status</button>
+        <button>Charts / Vacancy</button>
+      </div>
+
+      <div class="form-box">
+        <div class="form-row">
+          <input type="text" placeholder="From: Bangalore (SBC)" />
+          <input type="text" placeholder="To: Kasaragod (KSD)" />
+        </div>
+
+        <div class="form-row">
+          <input type="date" value="2023-08-01" />
+          <select>
+            <option>3A (AC 3 Tier)</option>
+            <option>2A (AC 2 Tier)</option>
+            <option>SL (Sleeper)</option>
+          </select>
+          <select>
+            <option>TATKAL</option>
+            <option>GENERAL</option>
+          </select>
+        </div>
+
+        <button class="search-btn">Search Train ➔</button>
+      </div>
+    </div>
+
+    <!-- Right Panel -->
+    <div class="right-panel">
+      <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSa3D9HmVaj8qeAB7IZK_diWZwDLaw-7XbeLt4UfpE0qUGJMvXL" alt="Train">
+      <img src="https://5.imimg.com/data5/GM/QL/MY-35858049/dudh-sagar-waterfall.jpg" alt="Waterfalls">
+    </div>
+  </div>
+</body>
+</html>
+
+    
+    
